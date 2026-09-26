@@ -7,6 +7,7 @@ import {
   Store, Trash2, Truck, UserRound, X,
 } from "lucide-react"
 import "./styles.css"
+import "./sky-theme.css"
 
 const dataElement = document.getElementById("setu-data")
 const data = dataElement ? JSON.parse(dataElement.textContent || "{}") : {}

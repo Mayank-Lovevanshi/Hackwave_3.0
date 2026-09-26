@@ -1,0 +1,48 @@
+:root {
+  --green: #0284c7;
+  --green-dark: #0369a1;
+  --green-light: #e0f2fe;
+}
+
+.home-intro,
+.auth-aside {
+  border-color: #cce9f8;
+  background: #eff9ff;
+}
+
+.home-side {
+  border-left-color: #cfe7f5;
+}
+
+.home-side > div {
+  border-bottom-color: #d7edf8;
+}
+
+.verified-tag {
+  border-color: #bae6fd;
+  background: #f0f9ff;
+  color: #075985;
+}
+
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+  border-color: #7dd3fc;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.1);
+}
+
+.payment-choice {
+  border-color: #bae6fd;
+  background: #f0f9ff;
+}
+
+.verification-callout {
+  border-color: #bae6fd;
+  background: #f0f9ff;
+}
+
+@media (max-width: 760px) {
+  .home-side {
+    border-top-color: #cfe7f5;
+  }
+}
